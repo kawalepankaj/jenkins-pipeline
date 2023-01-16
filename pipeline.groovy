@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('code-pull') {
             steps {
-                git credentialsId: 'Sanskruti', url: 'git@github.com:sanskrutikasarlewar/jenkins-pipeline.git'
+                git credentialsId: 'pankaj', url: 'git@github.com:kawalepankaj/jenkins-pipeline.git'
             }
         }
     }
