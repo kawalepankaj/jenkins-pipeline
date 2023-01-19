@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent{
+        label ('ECS-agent')
+    }
     stages {
         stage('code-pull') {
             steps {
